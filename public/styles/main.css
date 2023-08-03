@@ -1,0 +1,129 @@
+.logoimage{
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+}
+.copyright{
+    text-align: center;
+}
+.head{
+   text-align: center;
+   background-color: transparent; 
+  
+}
+.box7{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+}
+.font{
+    font-size: 5rem;
+    font-weight: bold;
+}
+.desc{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.container4{
+    margin: 60px auto 0 auto;
+    width: 57%;
+    box-shadow: 10px 10px lightblue;
+}
+.sub-four {
+    display: flex;
+    flex-direction: column;
+}
+.four {
+    padding: 10px 10px 10px 25px;
+    background: transparent;
+    border-radius: 10px;
+    border: 1.5px solid black;
+    margin-top: 10px;
+}
+.size{
+    font-size: 3rem;
+}
+.bold{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.box2{
+    padding: 14px;
+    padding-left: 0px;
+}
+p{
+    margin-bottom: 0px;
+   text-align: left;
+}
+.container3{
+    text-align: center;
+}
+.container1,.container2,.box6{
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.box8{
+    text-align: center;
+    margin: 60px auto 0 auto;
+    margin-top: 12% !important;
+    border-radius: 10px;
+    width: 60%;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 10px 10px lightblue;
+}
+.box5{
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    width: 200px;
+   height: 200px;
+   margin: 10px;
+   box-shadow: 10px 10px lightblue;
+}
+.box6{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+h2,h4{
+    text-align: center;
+}
+.today{
+    font-size: 1.6rem;
+    
+}
+.sub-four {
+    display: flex;
+    flex-direction: column;
+    
+}
+.sub1,.sub2,.sub3,.sub4,.sub5{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.search1{
+    font-size: 2rem;
+    
+}
+body{
+    background-image: url('https://t4.ftcdn.net/jpg/04/61/23/23/360_F_461232389_XCYvca9n9P437nm3FrCsEIapG4SrhufP.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px){
+    .search1{
+        font-size: 1.4rem;   
+    }
+}
+@media screen and (max-width: 600px) {
+    .search1{
+        font-size: 1.2rem;   
+    }
+}
